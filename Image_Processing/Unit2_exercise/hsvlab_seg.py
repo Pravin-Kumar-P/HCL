@@ -30,13 +30,13 @@ plt.axis('off')
 
 # HSV image
 plt.subplot(2, 3, 2)
-plt.imshow(cv2.cvtColor(hsv, cv2.COLOR_HSV2RGB))
+plt.imshow(hsv)
 plt.title('HSV Image')
 plt.axis('off')
 
 # LAB image
 plt.subplot(2, 3, 3)
-plt.imshow(cv2.cvtColor(lab, cv2.COLOR_Lab2RGB))
+plt.imshow(lab)
 plt.title('LAB Image')
 plt.axis('off')
 
